@@ -2,3 +2,6 @@ This file is just testing.
 This is just working test and helping something by myself.
 2019 01 04 making something
 Yes, it is interesting.
+Just reading a good book and practicing to code. h a h a.
+Simple work, simple test, and repeating, and understanding.
+git --global option first and git add and git commit. simple.
