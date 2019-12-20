@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restarting</title>
+    <script>
+    alert("Hello, World!");
+    document.write("<b>Hello, World!</b>");
+    console.log("%cHello, World!", "color: blue; font-size:20px");
+    </script>
+</head>
+<body>
+    <div id="counter">0</div>
+    <button id="increase">+</button>
+    <button id="decrease">-</button>
+    <script>
+        const $counter = document.getElementById('counter');
+        const $increase = document.getElementById('increase');
+        const $decrease = document.getElementById('decrease');
+
+        let num = 0;
+        const render = function() { $counter.innerHTML = num; };
+
+        $increase.onclick = function() {
+            num++;
+            console.log('increase button click', num);
+            render();
+         };
+
+         $decrease.onclick = function() {
+            num--;
+            console.log('decrease button click', num);
+            render();
+         };
+
+    </script>
+</body>
+</html>
