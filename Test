@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Restarting</title>
     <script>
-    alert("Hello, World!");
-    document.write("<b>Hello, World!</b>");
-    console.log("%cHello, World!", "color: blue; font-size:20px");
+        alert('Hello, World!');
+        document.write('<b>Hello, World!</b>');
+        console.log('%cHello, World!", "color: blue; font-size:20px');
+        var name = prompt('Input your name here.');
+        alert('Hello, ' + name);
     </script>
 </head>
 <body>
